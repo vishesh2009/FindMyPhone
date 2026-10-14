@@ -9,7 +9,7 @@ object CommandHandler {
 
         val command = message.trim()
 
-        if (command == "FINDPHONE TEST") {
+        if (command == "password_test") {
             Log.i(
                 "FindMyPhone",
                 "Test SMS command received successfully!"

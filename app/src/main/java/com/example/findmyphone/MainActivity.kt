@@ -73,7 +73,7 @@ class MainActivity : Activity() {
             setOnClickListener {
 
                 val accepted = CommandHandler.processCommand(
-                    "FINDPHONE TEST"
+                    "password_test"
                 )
 
                 if (accepted) {
